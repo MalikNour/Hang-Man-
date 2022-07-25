@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Abdulmalik Nour">
+    <title>Final Project Hangman</title>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/gameSrc.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<div class="centerContainer">
+    <div class="innerTextContainer">
+
+        <div class="topLeftContainer">
+            <button id="resetBtn">Play Again</button>
+        </div>
+
+        <div class="topRightContainer">
+            <img id='hangmanPic' src="../images/0.jpg" alt="">
+            <button id="myButton">Press Me!</button>
+        </div>
+
+        <h1 class="danger">Hangman</h1>
+        <h2>Comp 2132 Final Project</h2>
+
+    </div>
+</div>
+
+<h2 id="specialMessage"></h2>
+<h2 id="displayedWord"></h2>
+
+<div class="centerContainer">
+    <button id="hintButton">Display Hint</button>
+</div>
+
+<h2 id="definition"></h2>
+
+<div class="centerContainer">
+    <div class="innerTextContainer">
+
+        <div class="inlineContainer">
+            <p id="livesText">Lives remaining: &nbsp;</p>
+            <p id="livesValue">Lives value</p>
+        </div>
+
+        <div class="inlineContainer">
+            <p id="scoreText">Score: &nbsp;</p>
+            <p id="scoreValue">Score value</p>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="centerContainer" id="letterButtonContainer"></div>
+
+<script src="../js/gameReset.js"></script>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,11 @@
+@mixin important-text {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px lightblue;
+}
+
+.danger {
+  @include important-text;
+  background-color: lightblue;
+}
